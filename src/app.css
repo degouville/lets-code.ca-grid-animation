@@ -1,0 +1,74 @@
+.main {
+  position: absolute;
+  top: 0;
+  background: #000;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .text {
+  width: 20vw;
+  height: 50vh;
+  h1: , h2, p;
+  padding: 1em;
+}
+.main .text h1 {
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #6cde7c;
+}
+.main .text h2 {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+.main .text p {
+  font-size: 0.7em;
+  color: rgba(255,255,255,0.533);
+}
+.main .text .btn {
+  width: 5em;
+  height: 1em;
+  background: #6cde7c;
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  margin: 1em 0;
+  padding: 1em;
+}
+.main .cards {
+  position: relative;
+  width: 40em;
+  height: 30em;
+}
+.main .cards .card {
+  position: absolute;
+  width: 13em;
+  height: 9.5em;
+  border-radius: 0.5em;
+  overflow: hidden;
+  transition: all 1s;
+  transform-origin: left top;
+}
+.main .cards .card.is-active {
+  width: 13.25em;
+  height: 9.75em;
+  border-radius: 0.25em;
+}
+.main .cards .card img {
+  width: 100%;
+}
+.main .cards .card .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}
+.main .cards .card .overlay b {
+  color: #f00;
+}
